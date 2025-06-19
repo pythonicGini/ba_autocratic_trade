@@ -76,7 +76,7 @@ def main() -> None:
         u_sigma = "HC1"
         u_order = 1
         u_lags = 0
-        e_method = "gaussian"
+        e_method = "all"
         e_order = 1
         e_lags = 0
         e_alpha = 0.05
