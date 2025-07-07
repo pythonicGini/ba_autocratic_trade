@@ -168,6 +168,7 @@ def plot_by_continents(df_ert: pd.DataFrame, relevant_countries: dict) -> None:
 
     # Display of the final figure
     fig.show()
+    fig.write_html("09_plots/_democratic_development_plot.html")
 
     return
 
