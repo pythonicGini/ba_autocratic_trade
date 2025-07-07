@@ -137,17 +137,17 @@
     "AUS": {
         "dem": "steady",
         "treat_start": 2010,
-        "treat_end": 2013
+        "treat_end": 2015
     },
     "AUT": {
         "dem": "steady",
         "treat_start": 2014,
-        "treat_end": 2017
+        "treat_end": 2019
     },
     "BEL": {
         "dem": "steady",
         "treat_start": 2008,
-        "treat_end": 2011
+        "treat_end": 2014
     },
     "BRB": {
         "dem": "steady",
@@ -157,7 +157,7 @@
     "CAN": {
         "dem": "steady",
         "treat_start": 2005,
-        "treat_end": 2008
+        "treat_end": 2009
     },
     "CHE": {
         "dem": "steady",
@@ -167,7 +167,7 @@
     "CHL": {
         "dem": "steady",
         "treat_start": 2010,
-        "treat_end": 2014
+        "treat_end": 2016
     },
     "CPV": {
         "dem": "steady",
@@ -181,12 +181,12 @@
     },
     "CYP": {
         "dem": "steady",
-        "treat_start": 2011,
-        "treat_end": 2014
+        "treat_start": 2010,
+        "treat_end": 2016
     },
     "DEU": {
         "dem": "steady",
-        "treat_start": 2013,
+        "treat_start": 2012,
         "treat_end": 2016
     },
     "DNK": {
@@ -216,22 +216,22 @@
     },
     "GBR": {
         "dem": "steady",
-        "treat_start": 2006,
-        "treat_end": 2009
+        "treat_start": 2005,
+        "treat_end": 2010
     },
     "IRL": {
         "dem": "steady",
-        "treat_start": 2008,
-        "treat_end": 2011
+        "treat_start": 2007,
+        "treat_end": 2012
     },
     "ISL": {
         "dem": "steady",
         "treat_start": 2007,
-        "treat_end": 2010
+        "treat_end": 2012
     },
     "ISR": {
         "dem": "steady",
-        "treat_start": 2008,
+        "treat_start": 2007,
         "treat_end": 2011
     },
     "ITA": {
@@ -256,12 +256,12 @@
     },
     "LVA": {
         "dem": "steady",
-        "treat_start": 2013,
+        "treat_start": 2009,
         "treat_end": 2016
     },
     "MLT": {
         "dem": "steady",
-        "treat_start": 2014,
+        "treat_start": 2012,
         "treat_end": 2017
     },
     "NAM": {
@@ -277,12 +277,12 @@
     "NOR": {
         "dem": "steady",
         "treat_start": 2015,
-        "treat_end": 2018
+        "treat_end": 2020
     },
     "NZL": {
         "dem": "steady",
         "treat_start": 2007,
-        "treat_end": 2010
+        "treat_end": 2012
     },
     "PAN": {
         "dem": "steady",
@@ -297,7 +297,7 @@
     "PRY": {
         "dem": "steady",
         "treat_start": 2005,
-        "treat_end": 2008
+        "treat_end": 2010
     },
     "STP": {
         "dem": "steady",
@@ -312,12 +312,12 @@
     "SWE": {
         "dem": "steady",
         "treat_start": 2011,
-        "treat_end": 2014
+        "treat_end": 2017
     },
     "TTO": {
         "dem": "steady",
         "treat_start": 2008,
-        "treat_end": 2011
+        "treat_end": 2014
     },
     "URY": {
         "dem": "steady",

@@ -41,7 +41,8 @@ def main() -> None:
         treated_unit = country
         donor_units = [c for c in countries.keys() if (countries[c]["dem"] == "steady") and (c != treated_unit)]
         pre_period = np.arange(2000, value_dict["treat_start"])
-        post_period = np.arange(value_dict["treat_start"], 2023)
+        post_period = np.arange(value_dict["treat_start"], 2024)
+
 
         # Lade deinen Datensatz
         df_data_local = df_data.copy()[["reporterISO", "refYear", "auto_share"]]
@@ -62,15 +63,6 @@ def main() -> None:
             cointegrated_data=True
         )
 
-        ## 2. Gewichtsschätzung (Punkt-Schätzung)
-        #est = scest(
-        #    df=prep,
-        #    w_constr={"name": "ridge"},  # alternativ: lasso, ridge
-        #    V="separate",
-        #    #solver="ECOS"
-        #)
-
-        # 3. Inferenz + Unsicherheitsbereiche (optional aber empfohlen)
         w_constr = {'name': 'simplex', 'Q': 1}
         u_missp = True
         u_sigma = "HC1"
@@ -114,7 +106,7 @@ def main() -> None:
              legend_justification=(0, 1),
              legend_background=element_rect(fill='white', alpha=0.5))
         )
-         .save(f"09_plots/{value_dict["dem"]}_{country}.png", width=6, height=4, dpi=400))
+         .save(f"09_plots/{value_dict['dem']}_{country}.png", width=6, height=4, dpi=400))
 
 if __name__ == "__main__":
     main()
