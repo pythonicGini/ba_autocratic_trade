@@ -40,8 +40,8 @@ def main() -> None:
 
         treated_unit = country
         donor_units = [c for c in countries.keys() if (countries[c]["dem"] == "steady") and (c != treated_unit)]
-        pre_period = np.arange(2000, value_dict["treat_start"])
-        post_period = np.arange(value_dict["treat_start"], 2024)
+        pre_period = np.arange(2000, value_dict["treat_start"] +1)
+        post_period = np.arange(value_dict["treat_start"] +1, 2024)
 
 
         # Lade deinen Datensatz
